@@ -1,0 +1,87 @@
+/*Selector {
+	Property: value;
+}*/
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+font-family: 'Fresca', sans-serif;
+  background-image: url(bgdark.jpg);
+  background-size: cover;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.7); 
+  cursor: pointer;
+
+
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("header.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+
+}
+
+header.startup h1 {
+  font-size: 2em;
+  font-family: 'Slabo 27px', serif;
+  text-shadow: 3px 3px 5px gray;
+
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 0.5rem 3rem; 
+}
+
+}
+
+.btn-primary {
+  background-color: #ff0000;
+  border-color: #ff0052; 
+}
+
+.btn-primary:hover {
+  background-color:#FFA8A8;
+  border-color: #730000;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+
+.nav-link{
+    font-family: 'Indie Flower', cursive;
+    margin: 1px 110px 5px;
+    text-shadow: 2px 2px 2px white;
+}
+
+
+
+.navbar-brand{
+ 
+    font-family: 'Abril Fatface', cursive;
+       text-shadow: 1px 1px 1px gray;
+}
